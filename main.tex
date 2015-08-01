@@ -1,0 +1,19 @@
+\documentclass[a4paper,14pt,oneside]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\usepackage{amsmath}     % \eqref
+\allowdisplaybreaks      % Разрешить разрывы в многострочных формулах
+\usepackage{indentfirst} % Отступ у первого абзаца
+
+\begin{document}
+\def\levkolonttl#1{}
+\def\prvkolonttl#1{}
+\newcounter{theorem}
+\newcounter{lemm}
+\newcounter{corollary}
+\newenvironment{engabstract}{}{}
+\def\No{№}
+\input{article}
+\end{document}
+\endinput
